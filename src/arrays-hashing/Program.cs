@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        var validAnagram = new GroupAnagramsProblem();
-        validAnagram.GroupAnagrams(new string[] { "act", "pots", "tops", "cat", "stop", "hat" });
+        var problem = new TopKFrequentElementsProblem();
+        problem.TopKFrequent(new int[] { 1, 1, 1, 2, 2, 3 }, 2);
     }
 }
