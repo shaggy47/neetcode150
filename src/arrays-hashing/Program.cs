@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        var validAnagram = new ValidAnagramProblem();
-        validAnagram.IsAnagram("bbcc", "ccbc");
+        var validAnagram = new GroupAnagramsProblem();
+        validAnagram.GroupAnagrams(new string[] { "act", "pots", "tops", "cat", "stop", "hat" });
     }
 }

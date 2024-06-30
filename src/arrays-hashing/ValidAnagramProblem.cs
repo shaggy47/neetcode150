@@ -21,7 +21,12 @@ namespace arrays_hashing
             }
 
             foreach (var c in t)
-                if (counts[c - 'a'] == 0)
+            {
+                counts[c - 'a']--;
+            }
+
+            foreach (var c in counts)
+                if (c != 0)
                     return false;
 
             return true;
