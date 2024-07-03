@@ -4,7 +4,9 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        var problem = new ProductOfArrayExceptSelf();
-        problem.ProductExceptSelf(new int[] { 1, 2, 4, 6 });
+        var problem = new LongestConsecutiveSequenceProblem();
+        var l = problem.LongestConsecutive(new int[] { 0, 3, 2, 5, 4, 6, 1, 1 });
+        Console.WriteLine(l);
+        Console.Read();
     }
 }
