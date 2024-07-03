@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        var problem = new TopKFrequentElementsProblem();
-        problem.TopKFrequent(new int[] { 1, 1, 1, 2, 2, 3 }, 2);
+        var problem = new ProductOfArrayExceptSelf();
+        problem.ProductExceptSelf(new int[] { 1, 2, 4, 6 });
     }
 }
