@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrays-hashing", "arrays-hashing\arrays-hashing.csproj", "{222CA5C6-A6E6-4E5E-8A71-2D60E5B8B4A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "two-pointers", "two-pointers\two-pointers.csproj", "{BDA78B42-8C08-4907-AFB4-9335A889268F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{222CA5C6-A6E6-4E5E-8A71-2D60E5B8B4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{222CA5C6-A6E6-4E5E-8A71-2D60E5B8B4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{222CA5C6-A6E6-4E5E-8A71-2D60E5B8B4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA78B42-8C08-4907-AFB4-9335A889268F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA78B42-8C08-4907-AFB4-9335A889268F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA78B42-8C08-4907-AFB4-9335A889268F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA78B42-8C08-4907-AFB4-9335A889268F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
